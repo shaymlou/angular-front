@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Caveat&family=Cinzel&family=Indie+Flower&family=Leckerli+One&family=Supermercado+One&display=swap');
+section {
+  display: table;
+  
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+  
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.titlenav{
+  text-align: center;
+  font-size: 50px;
+  animation: bgcolor infinite 20s;
+  font-family: 'Bangers', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Supermercado One', cursive;
+}
+.mrfunc{
+margin: 10px;
+  float: left;
+  font-size: larger;
+  background-color: #1abc9c;
+  width: 100px;
+}
+
+@keyframes bgcolor{
+  0%
+  {
+    background: #1abc9c;
+  }
+  20%
+  {
+    background: #34495e;
+  }
+  40%
+  {
+    background:#7f8c8d ;
+  }
+  80%
+  {
+    background: #e74c3c;
+  }
+  100%
+  {
+    background:#f1c40f;
+  }
+  
+}
+.img{
+  background-color: black;
+  animation: bgcolor infinite 20s;
+}

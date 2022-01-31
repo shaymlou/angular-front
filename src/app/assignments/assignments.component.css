@@ -1,0 +1,114 @@
+.container {
+  display:flex;
+  flex-direction: column;
+}
+.paginationBtn {
+  align-self: flex-start;
+}
+
+.demo-table {
+  width: 90%;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.demo-table1 {
+  width: 100%;
+  animation: bgcolor infinite 20s;
+}
+th,td{
+  border: 2px solid black;
+}
+
+.mat-column-demo-id {
+  width: 32px;
+  font-size: larger;
+  border-right: 1px solid currentColor;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.mat-column-demo-nom {
+  width: 600px;
+  font-size: larger;
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.mat-column-demo-dateRendu {
+  font-style: italic;
+  font-size: larger;
+}
+
+.mat-column-demo-rendu {
+  width: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.mat-column-detail {
+  text-align: center;
+  font-size: larger;
+}
+
+.mat-column-edit {
+  text-align: center;
+  font-size: larger;
+}
+
+.mat-column-delete {
+  text-align: center;
+  font-size: larger;
+}
+
+.paginationBtns{
+  width: 100%;
+  height: 40px;
+  background: #f3f3f3;
+  animation: bgcolor infinite 20s;
+}
+
+.btngrp{
+  width: max-content;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.nbtotal{
+  float: right;
+  margin: 8px;
+}
+.addbtn{
+  margin-left: 27%;
+}
+
+.sppan {
+  margin-left: 10px;
+}
+
+.spanpan{
+  padding: 10px;
+}
+@keyframes bgcolor{
+  0%
+  {
+    background: #1abc9c;
+  }
+  20%
+  {
+    background: #34495e;
+  }
+  40%
+  {
+    background:#7f8c8d ;
+  }
+  80%
+  {
+    background: #e74c3c;
+  }
+  100%
+  {
+    background:#f1c40f;
+  }
+  
+}
