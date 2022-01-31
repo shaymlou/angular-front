@@ -1,5 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
-html, body { height: 100%; }
+html, body { height: 100%;
+    animation: bgcolor infinite 20s;
+ }
+ @keyframes bgcolor{
+    0%
+    {
+      background: #1abc9c;
+    }
+    20%
+    {
+      background: #34495e;
+    }
+    40%
+    {
+      background:#7f8c8d ;
+    }
+    80%
+    {
+      background: #e74c3c;
+    }
+    100%
+    {
+      background:#f1c40f;
+    }
+    
+  }
+
 body { margin: 40; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 html, body { height: 100%; }

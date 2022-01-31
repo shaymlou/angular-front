@@ -52,6 +52,9 @@ margin: 10px;
   background-color: #1abc9c;
   width: 100px;
 }
+mat-drawer-content{
+  animation: bgcolor infinite 20s;
+}
 
 @keyframes bgcolor{
   0%
